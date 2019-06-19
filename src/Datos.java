@@ -7,11 +7,11 @@ public class Datos {
 
 	}
 	public String User(){
-		String pass = "Markitohh20@gmail.com";
+		String pass = "-";
 		return pass;
 	}
 	public String Pass(){
-		String pass = "MarcoAB203";
+		String pass = "-";
 		
 		return pass;
 	}

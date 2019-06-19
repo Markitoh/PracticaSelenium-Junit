@@ -9,7 +9,7 @@ public class TuCuenta {
 private static WebElement element = null;
 	
 	public static WebElement PedidosArchivados(WebDriver driver) {
-		element = driver.findElement(By.xpath("//*[@id='a-page']/div[2]/div/div[4]/div[1]/div/div/ul/li[4]/span/a"));
+		element = driver.findElement(By.xpath("//span[@class ='a-list-item' and contains(a, 'Ver pedidos archivados')]/a"));
 		return element;
 }
 	
